@@ -145,6 +145,10 @@ export function createDom() {
   });
 }
 
+export function setDiv(newDiv: HTMLDivElement) {
+  div = newDiv;
+}
+
 /**
  * Set an element to maintain bounds within. Drop-downs will appear
  * within the box of this element if possible.
